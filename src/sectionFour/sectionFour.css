@@ -1,0 +1,27 @@
+.section-four {
+  background-image: url('../images/alexan.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+.section-four h1 {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0px 3.185873508453369px 3.185873508453369px 0px
+    rgba(0, 0, 0, 0.25);
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 85.5%;
+  margin-top: 23rem;
+}
+@media only screen and (max-width: 700px) {
+  .section-four h1 {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,48 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  padding: 3rem;
+}
+.main-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main-title {
+  color: #232323;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+}
+.main p span {
+  font-weight: bold;
+  color: #232323;
+}
+.main-paragraph {
+  color: #232323;
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+.button {
+  width: 100px;
+}
+@media only screen and (max-width: 700px) {
+  .main {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .threePerson {
+    width: 200px;
+  }
+  .Button {
+    text-align: center;
+  }
+}

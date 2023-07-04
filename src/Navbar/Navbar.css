@@ -1,0 +1,63 @@
+.navabr {
+  display: flex;
+  justify-content: space-between;
+}
+.ebmed {
+  color: #280a5f;
+  font-size: 33.08px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 85.5%;
+  letter-spacing: -2.15px;
+}
+.text-left {
+  display: flex;
+  align-items: center;
+}
+.text-right {
+  display: flex;
+}
+.text-right p {
+  margin: 2rem;
+  color: #280a5f;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.text-right span {
+  color: rgba(116, 127, 254, 1);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  margin: 2rem;
+  line-height: normal;
+}
+@media only screen and (max-width: 700px) {
+  .navabr {
+    display: flex;
+    justify-content: space-between;
+  }
+  .text-left {
+    float: left;
+  }
+  .text-right {
+    display: none;
+  }
+  .text-left img {
+    width: 30px;
+  }
+  .text-left .ebmed {
+    display: none;
+  }
+  .text-left::after {
+    content: '';
+    background-image: url('../images/Property.jpg');
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    margin-left: 35rem; /* Change margin-left to margin-right */
+    cursor: pointer;
+    float: right;
+  }
+}
